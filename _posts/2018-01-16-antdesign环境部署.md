@@ -24,4 +24,4 @@ tag: 测试框架
 4. 输入antd-init，初始化ant项目内容
 
 ### 遇到的坑
-1. node xxx.js 或者 npm start 运行js服务时候，强行终止服务而非npm stop正常停止，下次再次启动时候，可能会出现启动异常，可以确认是端口冲突引起的，ps -ef | grep “node” 查询进程服务的pid，kill掉，再执行启动服务就可以了
+1. node xxx.js 或者 npm start 运行js服务时候，强行终止服务而非npm stop正常停止，下次再次启动时候，可能会出现启动异常，可以确认是端口冲突引起的，ps -ef \| grep “node” 查询进程服务的pid，kill掉，再执行启动服务就可以了
